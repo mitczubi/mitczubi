@@ -127,6 +127,8 @@ h1 {
 #about-main {
     transition: margin-left .5s;
     padding: 20px;
+    background-image: url("nycmap.png");
+    background-size: 100%;
 }
 
 #about-main h1 {
