@@ -129,6 +129,7 @@ h1 {
     padding: 20px;
     background-image: url("nycmap.PNG");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #about-main h1 {
