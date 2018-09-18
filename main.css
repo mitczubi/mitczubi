@@ -38,6 +38,8 @@ body {
     position: relative;
     /* letter-spacing: -0.02em; */
     font-family: 'Bree Serif', serif;
+    background-image: url("nycmap.PNG");
+    background-size: 100%;
 }
 
 #contact {
@@ -84,6 +86,10 @@ h1 {
     font-weight: bold;
 }
 
+.menu-container {
+    padding: 10px 0 0 10px;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -118,9 +124,16 @@ h1 {
     margin-left: 50px;
 }
 
-#main {
+#about-main {
     transition: margin-left .5s;
     padding: 20px;
+}
+
+#about-main h1 {
+    font-family: "Bree Serif", serif;
+    text-align: left;
+    line-height: 0.94em;
+    padding: 5px 85px 0 85px;
 }
 
 .bar {
