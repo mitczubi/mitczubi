@@ -1,0 +1,136 @@
+html {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer !important;
+}
+
+a:hover {
+    cursor: pointer !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    -webkit-font-smoothing: antialiasing;
+    position: relative;
+    height: auto;
+
+}
+
+#home {
+    line-height: 0.94em;
+    padding: 75px 85px 0 85px;
+    width: calc(100% - 170px);
+    height: auto;
+    background-color: #fff;
+    z-index: 5;
+    position: relative;
+    /* letter-spacing: -0.02em; */
+    font-family: 'Bree Serif', serif;
+}
+
+#contact {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 80px 0 0 0;
+    z-index: 5;
+    background-color: #222;
+    overflow: hidden;
+}
+
+#contact h1 {
+    font-family: 'Bree Serif', serif;
+    line-height: 0.94em;
+    display: block;
+    text-align: left;
+    left: 80px;
+    /* bottom: -55px; */
+    width: calc(100% - 80px);
+    position: relative;
+    /* letter-spacing: -0.02em; */
+    color: #fff;
+    z-index: 2;
+}
+
+#contact a:link,
+#contact a:visited,
+#contact a:active {
+    font-family: 'Bree Serif', serif;
+    color: #888;
+}
+
+#contact a:hover {
+    text-decoration: line-through;
+}
+
+h1 {
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
